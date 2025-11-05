@@ -9,21 +9,23 @@ body{
     top: 0;
     flex-direction: row; 
     width: 100%; 
-    border: 2px solid black; 
+    border: 1px solid black; 
     color:white;
 }
 .nav-left{
+    display: flex;
+    flex-direction: row;
     left: 0;
     top: 0;
-    font-size: 22px;
+    font-size: 20px;
 }
 .nav-right{
-    text-decoration: none;
-    padding-left: 180vb;
-    gap: 22px;
-    left: 0;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;  
+  gap: 18px;                  
+  flex: 1;  
 }
 .icon {
   font-size: 22px;
@@ -59,7 +61,7 @@ body{
     font-size: 18px;
 }
 .hero-text h1{
-    line-height: 29px;
+    line-height: 45px;
     font-size: 68px;
 
 
