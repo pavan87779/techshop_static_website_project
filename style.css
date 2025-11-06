@@ -288,6 +288,7 @@ hr{
 @media (max-width: 600px) {
 
   .header {
+    display:flex;
     flex-direction: column;
     text-align: center;
     padding: 10px 0;
@@ -351,3 +352,4 @@ hr{
     justify-content: center;
   }
 }
+
