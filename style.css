@@ -285,3 +285,69 @@ hr{
 .fright img{
     color: white;
 }
+@media (max-width: 600px) {
+
+  .header {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .nav-right {
+    justify-content: center;
+    gap: 25px;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .hero-img {
+    padding: 0;
+  }
+
+  .hero-img img {
+    width: 250px;
+    height: auto;
+  }
+
+  .products {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cart1, .cart2, .cart3 {
+    width: 90%;
+    height: auto;
+  }
+
+  .advantages {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .service {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .fright {
+    justify-content: center;
+  }
+}
