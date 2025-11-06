@@ -290,6 +290,7 @@ hr{
 
   .header {
     display: flex;
+    flex-wrap:wrap;
     flex-direction: row;
     text-align: center;
   }
@@ -302,7 +303,7 @@ hr{
   .hero {
     flex-direction: column;
     padding: 20px;
-    margin-top: 8px;
+    margin-top: 10px;
     height: auto;
     text-align: center;
   }
@@ -322,7 +323,11 @@ hr{
     
   }
 
-
+.cart1,.cart2,.cart3{
+display:flex;
+    flex-direction:column;
+    margin-bottom:10px;
+}
 
   .advantages {
     flex-direction: column;
@@ -346,3 +351,4 @@ hr{
     justify-content: center;
   }
 }
+
