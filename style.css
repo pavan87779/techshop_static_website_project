@@ -290,7 +290,7 @@ hr{
 
   .header {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
   }
 
@@ -322,17 +322,6 @@ hr{
     
   }
 
-  .products {
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-
-  .cart1, .cart2, .cart3 {
-    width: 90%;
-    height: auto;
-    margin-bottom: 15px;
-  }
 
 
   .advantages {
